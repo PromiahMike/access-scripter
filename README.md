@@ -11,14 +11,12 @@ Access Scripter is a simple tool to that creates a complete script of a Microsof
 - Foreign Keys
 
 ## Installation and Usage
-Import the module ScriptAccessForSqlServer.bas into your Access project.
+Import the module `Access-Scripter.bas` into your Access project.
 
 Make sure the following two references are added to your project:
 - Microsoft ADO Ext X.X For DDL and Security
 - Microsoft Office XX.X Object Library
 
-Then run the following sub:
-
-`ScriptDatabase`
+Then run `ScriptDatabase()`
 
 You will be prompted for a file location, and the complete script will be saved there.
